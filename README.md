@@ -248,7 +248,7 @@ app.oauth.on("token", ({ token, octokit }) => {
 app.oauth.createToken({ code, state });
 ```
 
-#### Node server example
+##### Node server example
 
 ```js
 import { App, getNodeMiddleware } from "octokit";
